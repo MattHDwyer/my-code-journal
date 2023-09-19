@@ -1,0 +1,31 @@
+@import '../../styles/common';
+
+.hidden > .LabelWrapper {
+  @include visually-hidden;
+}
+
+.disabled > .LabelWrapper {
+  color: grey;
+}
+
+.readOnly > .LabelWrapper {
+  color: lightgray;
+}
+
+.LabelWrapper {
+  @include text-breakword;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2px;
+}
+
+.Error {
+  @include text-breakword;
+  margin-top: 2px;
+}
+
+.Action {
+  flex: 0 0 auto;
+}

@@ -1,0 +1,45 @@
+@import '../../styles/common';
+
+.root {
+  margin: 0;
+  text-align: inherit;
+}
+
+.block {
+  display: block;
+}
+
+.Truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.VisuallyHidden {
+  @include visually-hidden;
+}
+
+.break {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.LineThrough {
+  text-decoration: line-through;
+}
+
+.start {
+  text-align: start;
+}
+
+.center {
+  text-align: center;
+}
+
+.end {
+  text-align: end;
+}
+
+.justify {
+  text-align: justify;
+}

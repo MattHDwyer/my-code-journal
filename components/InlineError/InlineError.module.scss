@@ -1,0 +1,18 @@
+@import '../../styles/common';
+
+.InlineError {
+  display: flex;
+  color: red;
+  fill: red;
+}
+
+.Icon {
+  fill: red;
+  margin-left: calc(-1 * 5px);
+  margin-right: calc(5px + 1px);
+  svg {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
